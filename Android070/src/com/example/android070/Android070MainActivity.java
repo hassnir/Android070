@@ -109,7 +109,7 @@ public class Android070MainActivity extends Activity implements SurfaceHolder.Ca
 				}else{
 					mediaPlayer.stop();
 					mediaPlayer.reset();
-					btnPlay.setText("Play");
+					btnPlay.setText("Reproducir");
 				}
 			}
    
@@ -137,7 +137,7 @@ public class Android070MainActivity extends Activity implements SurfaceHolder.Ca
 							btnRec.setEnabled(true);
 							btnStop.setEnabled(false);
 							btnPlay.setEnabled(true);
-							btnPlay.setText("Play");
+							btnPlay.setText("Reproducir");
 						}
 					});
 
@@ -155,7 +155,7 @@ public class Android070MainActivity extends Activity implements SurfaceHolder.Ca
 				}else{
 					// El botón de play también funciona para pausar cuando el vídeo se está reproduciendo
 					mediaPlayer.pause();
-					btnPlay.setText("Play");
+					btnPlay.setText("Reproducir");
 				}
 			}
        
